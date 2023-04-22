@@ -28,6 +28,7 @@ p {
 }
 img {
   display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -65,7 +66,7 @@ a {
 .conteiner {
   padding-left: 15px;
   padding-right: 15px;
-  width: 1158px;
+  width: 100%;
   margin: 0 auto;
 }
 .list {
@@ -238,7 +239,7 @@ a {
   padding-top: 120px;
 }
 .advantages-list {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 .advantages-item {
@@ -252,6 +253,7 @@ a {
   background-color: var(--color-cloud);
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 .strategy-icon {
   height: 64px;
@@ -287,12 +289,14 @@ a {
 
 .section-four {
   background-color: var(--color-cloud);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-item {
   background-color: var(--color-white);
-  width: 264px;
+  width: 100%;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -328,7 +332,11 @@ a {
 /* GEOMETRY 4 */
 .list-team {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 72px;
 }
+
 .box {
   padding: 32px 0;
   text-align: center;
@@ -853,4 +861,19 @@ a {
 }
 .send-icon {
   fill: #ffffff;
+}
+
+@media screen and (min-width: 428px) {
+  .conteiner {
+    width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+  .list-team {
+    width: calc((100% - 24px) / 2);
+  }
 }
