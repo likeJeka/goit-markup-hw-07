@@ -1,10 +1,3 @@
-/* MEDIA 320 */
-
-@media screen and (min-width: 320px) {
-  .section-four > .conteiner {
-    width: 280px;
-  }
-}
 
 /* MEDIA 428 */
 /* SECTION FOUR */
@@ -342,6 +335,13 @@
   }
   .third-footer-section > .footer-subscribe-title {
     text-align: center;
+  }
+  /* HEADER */
+  .address-list {
+    display: none;
+  }
+  .navigation-list {
+    display: none;
   }
 }
 
