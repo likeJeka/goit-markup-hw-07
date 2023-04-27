@@ -116,6 +116,13 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-tablet.jpg);
+      height: 436px;
+      max-width: 768px;
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tablet@2X.jpg);
   }
   .section-first {
     margin-bottom: 36px;
@@ -224,6 +231,15 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office\ 1.jpg);
+      height: 600px;
+      max-width: 1440px;
+      padding-top: 188px;
+      padding-bottom: 188px;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office\ 1@2X.jpg);
   }
   .section > .conteiner {
    padding: 0px 15px;

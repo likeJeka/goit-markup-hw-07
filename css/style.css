@@ -27,8 +27,8 @@ p {
 }
 
 img {
-  display: block;
   width: 100%;
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -261,6 +261,16 @@ a {
   color: #2E2F42;
 }
 
+.menu-nav-studio {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-iris);
+}
+
 .header-mob-contact {
   margin-bottom: 48px;
 }
@@ -272,6 +282,7 @@ a {
 }
 
 .header-mob-tel {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -297,7 +308,7 @@ a {
 }
 @media screen and (max-width: 428px) {
   .mob-soc-list {
-    gap: 35px;
+    gap: 25px;
   }
 }
 
@@ -337,6 +348,7 @@ a {
   margin: 0 auto;
   background-color: var(--color-grey);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob@2X.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
