@@ -698,7 +698,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .list-style {
   font-weight: 400;
@@ -750,6 +750,7 @@ a {
   top: 0;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
   color: var(--color-cloud);
   background-color: var(--color-iris);
   padding: 40px 32px 164px 32px;
